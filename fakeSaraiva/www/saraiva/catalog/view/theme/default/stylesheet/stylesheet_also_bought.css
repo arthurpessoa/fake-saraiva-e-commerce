@@ -1,0 +1,26 @@
+.tabs_also_bought {
+	height:31px;
+	margin-bottom:0;
+	width:100%;
+}
+.tabs_also_bought a {
+	background:url("../image/tab_3.png") repeat-x scroll 0 0 #FFFFFF;
+	border:1px solid #DDDDDD;
+	color:#000000;
+	display:block;
+	float:left;
+	font-size:13px;
+	font-weight:bold;
+	margin-right:2px;
+	padding:6px 15px 7px;
+	position:relative;
+	text-decoration:none;
+	top:1px;
+	z-index:1;
+}
+.tabs_also_bought a.selected {
+	background:url("../image/tab_3.png") repeat-x scroll 0 0 #FFFFFF;
+	border-bottom:0 none;
+	padding-bottom:8px;
+	z-index:3;
+}
